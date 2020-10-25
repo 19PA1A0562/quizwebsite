@@ -125,7 +125,7 @@ function next(){
   //console.log(d.q[0]+" "+user_input);
   let user_answer = document.getElementById("text").value;
   console.log(user_answer);
-  if(user_answer == ques_display.answer[count]){
+  if(user_answer.toLowerCase() == ques_display.answer[count].toLowerCase()){
     correct_ans= correct_ans +1;
     verification.push("Correct");
     //console.log("correct"+"  "+correct_ans);
