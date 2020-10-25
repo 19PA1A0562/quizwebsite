@@ -71,8 +71,13 @@ function topics(e){
 function submitForm(e){
     e.preventDefault();
     let name = document.forms["welcome_form"]["name"].value;
-    sessionStorage.setItem("name",name);
-    location.href="quiz.html";
+    if(name.length>=1){
+      sessionStorage.setItem("name",name);
+      location.href="quiz.html";
+    }
+    else{
+      alert("PLs Enter Your Name");
+    }
 }
 let user_input = sessionStorage.getItem("user_input");
 function topicSelection(a){
