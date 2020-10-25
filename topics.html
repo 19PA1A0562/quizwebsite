@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>start</title>
+	<link rel="stylesheet" type="text/css" href="start.css">
+	<style>
+	h1{
+      animation: type 2s steps(35);
+      overflow: hidden;
+      white-space: nowrap;
+      border-radius: 4px solid black;
+      width:35ch;
+    }
+    @keyframes type{
+      0% {
+        width: 0ch;
+      }
+      100%{
+        width:35ch;
+      }
+
+    }
+  </style>
+</head>
+<body>
+	
+	<img class="image" src="http://cdn.wallpapersafari.com/74/31/cWjN4e.jpg">
+	<h1 class="head">PLEASE   SELECT  TOPIC  NUMBER</h1>
+	<h1 class="class">1.General knowledge</h1>
+    <h1 class="class1">2.Biodiversity</h1>
+    <h1 class="class2">3.About computer</h1>
+    <h1 class="class3">4.Food and Nutrition</h1>
+    <h1 class="class4">5.Environment</h1>
+    <h1 class="class5">6.IndiaFlims</h1>
+    <h1 class="class6">7.Plants</h1>
+    <h1 class="class7">8.JavaBasics</h1>
+    <h1 class="class8">9.PythonBasics</h1>
+    <h1 class="class9">10.sports</h1>
+    <form  class="topics_form" name="topics_form" onsubmit="topics(event)">
+     	<input type="text" id="input" class="user_input" name="user_input"  placeholder="Enter the topic number">
+     	<button class="next_button" id="button">NEXT</button>
+     </form>
+
+</body>
+
+<script src="trail.js">
+	
+</script>
+</html>
+

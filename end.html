@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>end</title>
+	<link rel="stylesheet" type="text/css" href="start.css">
+	<style>
+    h1,h2{
+      animation: type 3s steps(30);
+      overflow: hidden;
+      white-space: nowrap;
+      border-radius: 4px solid black;
+      width:30ch;
+    }
+    @keyframes type{
+      0% {
+        width: 0ch;
+      }
+      100%{
+        width:30ch;
+      }
+
+    }
+  </style>
+</head>
+<body style="background-color:black;color:white;">
+	<img class="end_image" src="https://images.all-free-download.com/images/graphiclarge/vector_golden_badge_ribbon_background_295300.jpg">
+	<div style="position:absolute;bottom:650px;padding-left:520px;"><h1>THANKS  FOR   USING   QUIZ   BOT</h1></div>
+	<div class="result">
+		<h1 >Quiz result : <span id="correctanswer" class="correct_ans"></span>/10</h1>
+		<h2 id="answer" class="answer">answers:</h2>
+	</div>
+</body>
+<script src="userinfo.js">
+</script>
+</html>
