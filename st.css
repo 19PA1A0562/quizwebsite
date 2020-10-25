@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Nunito",sans-serif;
+}
+.input{
+	text-align:center;
+	margin:0px 0;
+
+}
+input[type="text"]{
+	heigth:50px;
+	width:600px;
+	background: white;
+	font-family: "Nunito",sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	border:none;
+	border-radius: 30px;
+	border:none;
+	border-radius: 30px;
+	padding: 10px 10px;
+}
+input[type="submit"]{
+	heigth:50px;
+	width:100px;
+	background: white;
+	font-family: "Nunito",sans-serif;
+	font-weight: bold;
+	font-size: 27px;
+	border:none;
+	border-radius: 30px;
+	border:none;
+	border-radius: 30px;
+}
+.display{
+	text-align: left;
+	margin-left: 80px
+}
+.bg-head{
+	background-image: url("https://news.utexas.edu/wp-content/uploads/2017/08/news_articles.jpg");
+	width: 1500px;
+	height: 1000px;
+
+}
