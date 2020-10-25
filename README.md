@@ -1,3 +1,9 @@
+### TeamMates
+ 19pa1a0532
+ 19pa1a0562
+ 19pa1a0564
+
+
 # quizwebsite
 ## About website
 Website gives the quiz of random questions of selected topic.
@@ -13,10 +19,17 @@ So we decided to have a website that will provide quiz and you can find the answ
 6. It shows the score and the correct answers for the wrong ones.
 7. If you enter any invalid content the browser will alert you..
 
-
-
 ## repl link
 https://repl.it/@MounikaHK/LastingAwkwardEnvironments-1#trail.js
 
 ## vedio link
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k12Ay11tjro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# news-quiz website(This is working fine with browser but not with repl.it)
+Reason : 1. This website requires chrome extensions "Moesif CORS" but it not available in repl.it
+         2. THe api we used for news is not secured so it working in repl.it
+         
+## Ojective of news-quiz website
+In this website we provide you news and quiz to attemp. We all are in a busy life so that we don't have time to come thorugh news or know about general knowledge. So we are providing you a good website so that there is no need to search the websites to know the news. We are giving you the top news in the world and contry wide.And quiz attempting would be very encoraging to you.
+      
+ ## vedio link
